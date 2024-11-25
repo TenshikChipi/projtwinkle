@@ -3,11 +3,11 @@ from . import views
 
 urlpatterns = [
     path('',views.index),
-    path('',views.autumn),
-    path('',views.colottype), 
-    path('',views.log),
-    path('',views.razdeli),
-    path('',views.spring),
-    path('',views.summer),
-    path('',views.winter),
+    path('autumn',views.autumn),
+    path('colottype',views.colottype), 
+    path('log',views.log),
+    path('razdeli',views.razdeli),
+    path('spring',views.spring),
+    path('summer',views.summer),
+    path('winter',views.winter),
 ]    
